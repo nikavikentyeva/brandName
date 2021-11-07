@@ -35,6 +35,7 @@ if (menuLinks.length > 0) {
 
     });
     function onMenuLinkClick(e) {
+        e.preventDefault();
         //ниже объект, на который мы кликнули, целевой объект
         const menuLink = e.target;
         //проверяем заполнен ли data атрибут и существует ли объект, на который ссылается атрибут
@@ -61,8 +62,6 @@ if (menuLinks.length > 0) {
                 $('a[href="#'+id+'"]').addClass('active');
 
             }
-            e.preventDefault();
-
         }
     }
 
