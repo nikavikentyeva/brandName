@@ -123,9 +123,11 @@ body {
 .blue:hover {
     background-color: #119AE7;
 }
+
 .white {
     background-color: #fff;
 }
+
 .title-white {
     color: #fff;
     font-weight: 700;
@@ -165,6 +167,7 @@ body {
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .lock {
     overflow: hidden;
 }
@@ -341,6 +344,7 @@ body {
         line-height: 133%;
         text-align: center;
         padding: 0 10px;
+        margin-right: 0;
     }
     .nav__li:not(:last-child) {
         margin-right: 0;
